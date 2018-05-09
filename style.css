@@ -1,0 +1,17 @@
+body{
+	background-image: url(https://s3.amazonaws.com/risu-blog/wp-content/uploads/2017/07/Melhores-marcas-de-notebook-2017.jpg);
+	background-size: cover;
+}
+
+h1{
+	margin-left:30%;
+	margin-top:20%;
+	color:white;
+}
+.btn-primary{
+	margin-left: 50%;
+	margin-top: 10%;
+	background-color: orange;
+	border: 5px orange solid;
+	position: fixed;
+}

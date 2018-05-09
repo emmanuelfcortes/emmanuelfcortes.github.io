@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Inscricao</title>
+	<link rel="stylesheet" type="text/css" href="style-form.css">
+</head>
+<body>
+<h1>Preencha o formulario para entrarmos em contato</h1>
+
+<form>
+Nome:<br>
+<input type="text" class="nome" name="Nome" size=50> <br><br>
+Logradouro: <br>
+<input type="text" class="logradouro" name="Logradouro" size=50><br><br>
+Email:<br>
+<input type="email" class="email" name="Email" size=30 required><br><br>
+Password: <br>
+<input type="password" class="password" name="Password" size="30" required=""><br><br>
+
+
+<div class="radio">
+		
+	Informe o seu interesse:<br>
+	<input type="radio" name="interesse" value="trabalho"> Trabalho	<br>
+	<input type="radio" name="interesse" value="particular"> Particular	<br>
+	<input type="radio" name="interesse" value="proprio negocio"> Negocio proprio<br><br>
+
+</div>
+
+<div class="checkbox">
+	Por onde ficou sabendo de nosso evento: <br>
+	<input type="checkbox" name="meiocomunicacao1" value="jornal"> Jornal <br>
+	<input type="checkbox" name="meiocomunicacao2" value="revista"> Revista <br>
+	<input type="checkbox" name="meiocomunicacao3" value="internet"> Internet <br>
+	<input type="checkbox" name="meiocomunicacao4" value="Propaganda televisiva"> Propaganda Televisiva <br>
+	<input type="checkbox" name="meiocomunicacao5" value="Amigo"> Amigo <br>
+
+</div>
+
+<input type="submit" value="Juntar-se ao Grupo!">
+<input type="reset" value="Limpar Campos">
+
+
+</form>
+
+</body>
+</html>
