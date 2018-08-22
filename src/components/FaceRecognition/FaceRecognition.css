@@ -1,0 +1,44 @@
+
+div.mother{
+	position: relative;
+	margin: auto; 
+	height: 200px;
+	width: 400px;
+	border: 10px orange solid;
+	
+}
+div.abc{
+	position: absolute;
+	border: 3px solid blue;
+	display: flex;
+	cursor: pointer;
+	/*z-index: 1;*/
+
+}
+img.img1{
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+	border: 1px solid red;
+	/*z-index: 0;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*:root{
+	--marginta: auto; declarando uma variavel
+}*/
